@@ -115,11 +115,21 @@ export const projects: IProject[] = [
     name: 'e-commerece app',
     image_path: '/images/e-commerece.png',
     deployed_url: 'https://ecommerece-sand.vercel.app/',
-    github_url: '',
+    github_url: 'https://github.com/mkhedre/next-ecommerece',
     category: ['Next'],
     description:
       'e-commerece app which show some products and the description of each product',
     key_techs: ['Next', 'Tailwind', 'Api'],
+  },
+  {
+    name: 'portofolio',
+    image_path: '/images/new-portofolio.png',
+    deployed_url: 'https://portofolio-beige.vercel.app/',
+    github_url: 'https://github.com/mkhedre/Next.js-portofolio',
+    category: ['Next'],
+    description:
+      'my portofolio in which i show my projects ,reusme and skills ',
+    key_techs: ['Next', 'Tailwind', 'Api', 'typeScript'],
   },
 
   {
