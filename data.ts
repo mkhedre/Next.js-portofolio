@@ -107,10 +107,39 @@ export const projects: IProject[] = [
     github_url: 'https://github.com/mkhedre/movies-app',
     category: ['react'],
     description:
-      'An web app which showsa collection of films and its description',
+      'a web app that helps us to search for movies and shows and also to watch them',
     key_techs: ['React'],
   },
-
+  {
+    name: 'Reminder app',
+    image_path: '/images/reminder.png',
+    deployed_url: 'https://reminder-app-main.vercel.app/',
+    github_url: 'https://github.com/mkhedre/Reminder-App',
+    category: ['react'],
+    description:
+      'a web app which helps us to set reminders and also to check the reminders',
+    key_techs: ['React'],
+  },
+  {
+    name: 'weather app',
+    image_path: '/images/weather.png',
+    deployed_url: 'https://mkhedre-weather-app.herokuapp.com/',
+    github_url: 'https://github.com/mkhedre/Reminder-App',
+    category: ['node'],
+    description:
+      'a web app in which you can see the weather of any city in the world',
+    key_techs: ['node', 'express'],
+  },
+  {
+    name: 'task manager api',
+    image_path: '/images/weather.png',
+    deployed_url: 'https://github.com/mkhedre/task-manager-api',
+    github_url: 'https://github.com/mkhedre/Reminder-App',
+    category: ['node', 'mongodb'],
+    description:
+      'Task manager application built using NODE JS and MongoDB. It follows a RESTFul API design architecture. The app sends an email notification upon registration and deactivation of the users account. Its richly built with a simple scientific technique and best practices in the world of API design.',
+    key_techs: ['node', 'express'],
+  },
   {
     name: 'e-commerece app',
     image_path: '/images/e-commerece.png',
@@ -149,7 +178,7 @@ export const projects: IProject[] = [
     deployed_url: 'https://tem1.vercel.app/',
     github_url: '',
     category: ['html', 'css'],
-    description: '',
+    description: ' a template for learning',
     key_techs: ['html', 'css', 'Vanilla js'],
   },
   {
@@ -158,7 +187,7 @@ export const projects: IProject[] = [
     deployed_url: 'https://tem3.vercel.app/',
     github_url: 'https://temp3-mkhedre3-gmailcom.vercel.app/',
     category: ['html', 'css'],
-    description: '',
+    description: ' a template for vlog',
     key_techs: ['html', 'css', 'Vanilla js'],
   },
   {

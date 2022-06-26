@@ -27,7 +27,7 @@ export type Category =
   | 'node'
   | 'express'
   | 'django'
-  | 'mongo'
+  | 'mongodb'
   | 'Next'
   | 'html'
   | 'css'

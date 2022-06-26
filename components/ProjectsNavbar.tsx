@@ -26,6 +26,7 @@ const ProjectsNavbar: FunctionComponent<{
       <NavItem value="html" {...props} />
       <NavItem value="react" {...props} />
       <NavItem value="Next" {...props} />
+      <NavItem value="node" {...props} />
     </div>
   );
 };
