@@ -1,5 +1,5 @@
-import { FunctionComponent } from "react";
-import { IconType } from "react-icons";
+import { FunctionComponent } from 'react';
+import { IconType } from 'react-icons';
 export interface Service {
   Icon: IconType;
   title: string;
@@ -22,4 +22,13 @@ export interface IProject {
   key_techs: string[];
 }
 
-export type Category = "react" | "node" | "express" | "django" | "mongo";
+export type Category =
+  | 'react'
+  | 'node'
+  | 'express'
+  | 'django'
+  | 'mongo'
+  | 'Next'
+  | 'html'
+  | 'css'
+  | 'js';

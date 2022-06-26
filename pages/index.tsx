@@ -4,10 +4,10 @@ import {
   GetStaticProps,
   GetStaticPropsContext,
   NextPage,
-} from "next";
-import ServiceCard from "../components/ServiceCard";
-import { services } from "../data";
-import { Service } from "../types";
+} from 'next';
+import ServiceCard from '../components/ServiceCard';
+import { services } from '../data';
+import { Service } from '../types';
 
 const About: NextPage = () => {
   // console.log(services);
@@ -15,14 +15,15 @@ const About: NextPage = () => {
   return (
     <div className="flex flex-col flex-grow px-6 pt-1 ">
       <h6 className="my-3 text-base font-medium">
-        I am currently pursuing B.Tech Degree(Final Year) in Computer Science
-        Engineering from Academy of Technology. I have 3+ years of experience in
-        Web Development and I have a Youtube Channel where I teach Full Stack
-        Web Development
+        I’m a Frontend developer with a good experience in building and
+        maintaining single page application using React.js , Next.js , Redux and
+        TypeScript . i’m passionate about workability ,learning and finding
+        creative solutions to technical challenges. I can create responsive
+        designs with clean and professional code
       </h6>
       <div
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 "
-        style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
+        style={{ marginLeft: '-1.5rem', marginRight: '-1.5rem' }}
       >
         <h4 className="my-3 text-xl font-semibold tracking-wide">
           What I am doing

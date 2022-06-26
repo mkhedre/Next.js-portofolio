@@ -123,21 +123,10 @@ export const projects: IProject[] = [
   },
 
   {
-    name: 'Realtime Chat App',
-    image_path: '/images/chatapp.jpg',
-    deployed_url: 'https://sumit-chat.netlify.app/',
-    github_url: 'https://github.com/Dey-Sumit/chat-app-socket.io-react-node',
-    category: ['node', 'react'],
-    description:
-      'Basic Realtime Chat App where one can create a room can talk to each other',
-    key_techs: ['React', 'Node', 'Express', 'Socket', 'Bootstrap'],
-  },
-
-  {
     name: 'last portofolio',
     image_path: '/images/portfolio.jpg',
     deployed_url: 'https://mostafa-khedre-reactjs.vercel.app/',
-    github_url: 'https://github.com/Dey-Sumit/tweetme',
+    github_url: '',
     category: ['html', 'css', 'js'],
     description:
       'my last portofolio which was made without any library or framework',
@@ -163,30 +152,12 @@ export const projects: IProject[] = [
     key_techs: ['html', 'css', 'Vanilla js'],
   },
   {
-    name: 'YouTube using YouTube ',
-    image_path: '/images/youtubeClone.png',
-    deployed_url: 'https://not-utube.web.app/',
-    github_url: 'https://github.com/Dey-Sumit/youtube-clone-tutorial-up',
-    category: ['express'],
-    description:
-      'Full(almost) Functional YouTube replica where one can login with his/her youtube account to enjoy "not-YouTube".User can like a video,comment on a video & Much More ',
-    key_techs: [
-      'React',
-      'Redux',
-      'Firebase Auth',
-      'YouTube API',
-      'Sass',
-      'Bootstrap',
-    ],
-  },
-  {
-    name: 'Football App',
-    image_path: '/images/football.png',
-    deployed_url: 'https://o-my-goal.web.app/',
-    github_url: 'https://github.com/Dey-Sumit/football-app',
-    category: ['react'],
-    description:
-      'o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ',
-    key_techs: ['React', 'Redux', 'Firebase Auth', 'API', 'Sass', 'Bootstrap'],
+    name: 'kaspar',
+    image_path: '/images/kaspar.png',
+    deployed_url: 'https://kaspar.vercel.app/',
+    github_url: '',
+    category: ['html'],
+    description: 'We Are Kasper We Make Art.',
+    key_techs: ['html', 'css', 'javaScript'],
   },
 ];
