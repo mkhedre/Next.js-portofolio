@@ -132,7 +132,7 @@ export const projects: IProject[] = [
   },
   {
     name: 'task manager api',
-    image_path: '/images/weather.png',
+    image_path: '',
     deployed_url: 'https://github.com/mkhedre/task-manager-api',
     github_url: 'https://github.com/mkhedre/Reminder-App',
     category: ['node', 'mongodb'],
